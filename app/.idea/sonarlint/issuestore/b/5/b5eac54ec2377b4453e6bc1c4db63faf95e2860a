@@ -1,0 +1,20 @@
+
+>
+java:S1604•"(Make this anonymous inner class a lambda(ç’ƒL
+D
+java:S1604º"(Make this anonymous inner class a lambda(àéÇıÿÿÿÿ
+<
+java:S1170("!Make this final field static too.(¢»ÅÊùÿÿÿÿ
+<
+java:S1170)"!Make this final field static too.(éµ™µúÿÿÿÿ
+V	java:S125u"<This block of commented-out lines of code should be removed.(ŞŒëùÿÿÿÿ
+[
+java:S1659¡"DDeclare "VIBRATE" and all following declarations on a separate line.(¦Ô™
+E
+java:S1874¬"/Remove this use of "vibrate"; it is deprecated.(–¢´.
+J
+java:S10682"/Remove this unused "SAMPLE_RATE" private field.(Òáıİûÿÿÿÿ
+E
+java:S10683"/Remove this unused "BUFFER_SIZE" private field.(Œ÷’÷
+I
+java:S10684"3Remove this unused "audioDispatcher" private field.(œ¨¾¢

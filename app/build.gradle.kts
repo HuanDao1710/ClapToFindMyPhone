@@ -2,6 +2,13 @@ plugins {
     id("com.android.application")
 }
 
+tasks.register<Wrapper>("wrapper") {
+    gradleVersion = "7.3.1"
+}
+
+tasks.register("prepareKotlinBuildScriptModel") {
+}
+
 android {
     namespace = "com.example.clapdetection"
     compileSdk = 33
@@ -30,14 +37,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 }
-//repositories {
-//    maven {
-//        name = "TarsosDSP repository"
-//        url = uri("https://mvn.0110.be/releases")
-//    }
-//}
-
-
 
 dependencies {
 
@@ -47,9 +46,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    // https://mvnrepository.com/artifact/com.github.axet/TarsosDSP
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar"))))
-
-
 }
